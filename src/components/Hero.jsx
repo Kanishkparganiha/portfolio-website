@@ -34,9 +34,11 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      <div className="absolute inset-0 bg-grid opacity-50"></div>
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl floating"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent-purple/10 rounded-full blur-3xl floating-delay-2"></div>
+      <div className="absolute inset-0 bg-grid opacity-40"></div>
+      {/* Warm ambient glow blobs */}
+      <div className="absolute top-1/3 left-1/5 w-[500px] h-[500px] bg-primary-500/8 rounded-full blur-[100px] floating"></div>
+      <div className="absolute bottom-1/4 right-1/5 w-[400px] h-[400px] bg-accent-coral/6 rounded-full blur-[80px] floating-delay-2"></div>
+      <div className="absolute top-1/2 right-1/3 w-[300px] h-[300px] bg-accent-orange/5 rounded-full blur-[60px] floating-delay-3"></div>
 
       <div className="container-custom relative z-10 pt-20">
         <div className="max-w-4xl mx-auto text-center">
@@ -49,7 +51,7 @@ const Hero = () => {
 
           {/* Profile Photo */}
           <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-8">
-            <div className="absolute -inset-1 bg-gradient-to-br from-primary-500 to-accent-purple rounded-full blur-sm opacity-60"></div>
+            <div className="absolute -inset-1 bg-gradient-to-br from-primary-500 to-accent-coral rounded-full blur-sm opacity-60"></div>
             <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-dark-700/50">
               <Image
                 src="/profile-2.jpg"
@@ -76,7 +78,7 @@ const Hero = () => {
 
           <div className="h-12 mb-8">
             <p className="text-lg sm:text-xl md:text-2xl text-dark-300 font-mono">
-              <span className="text-accent-cyan">&gt; </span>
+              <span className="text-primary-400">&gt; </span>
               {typedText}
               <span className="animate-pulse text-primary-500">|</span>
             </p>
@@ -150,7 +152,7 @@ const Hero = () => {
                 key={index}
                 className="relative group p-4 rounded-xl bg-dark-800/30 border border-dark-700/30 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-300"
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-accent-purple/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-accent-orange/5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="relative">
                   <div className="text-2xl md:text-3xl font-bold gradient-text mb-1">
                     {stat.value}

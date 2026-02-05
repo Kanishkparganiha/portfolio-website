@@ -66,7 +66,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="relative w-10 h-10 flex items-center justify-center">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-accent-purple rounded-lg"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-accent-coral rounded-lg"></div>
                 <span className="relative font-bold text-white text-lg">
                   K
                 </span>

@@ -12,7 +12,7 @@ const ExperienceCard = ({ exp, index, isLast }) => {
         isEven ? "md:flex-row" : "md:flex-row-reverse"
       } mb-8 md:mb-0`}
     >
-      <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-500 to-accent-purple md:hidden"></div>
+      <div className="absolute left-0 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-500 to-accent-coral md:hidden"></div>
 
       <div className="absolute left-0 top-6 w-3 h-3 -translate-x-1/2 rounded-full bg-primary-500 border-4 border-dark-900 md:hidden z-10"></div>
 
@@ -22,7 +22,7 @@ const ExperienceCard = ({ exp, index, isLast }) => {
         } pl-6 md:pl-0`}
       >
         <div className="group relative p-6 rounded-2xl bg-dark-800/30 border border-dark-700/30 hover:border-primary-500/30 transition-all duration-300 card-hover">
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-primary-500/0 to-accent-purple/0 group-hover:from-primary-500/10 group-hover:to-accent-purple/10 rounded-2xl transition-all duration-300"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-primary-500/0 to-accent-coral/0 group-hover:from-primary-500/10 group-hover:to-accent-coral/10 rounded-2xl transition-all duration-300"></div>
 
           <div className="relative">
             <div
@@ -71,7 +71,7 @@ const ExperienceCard = ({ exp, index, isLast }) => {
         </div>
       </div>
 
-      <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-primary-500 to-accent-purple border-4 border-dark-900 z-10 group-hover:scale-125 transition-transform"></div>
+      <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-gradient-to-br from-primary-500 to-accent-coral border-4 border-dark-900 z-10 group-hover:scale-125 transition-transform"></div>
     </div>
   );
 };
@@ -90,7 +90,7 @@ const Experience = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-dark-100 mb-4">
             Work <span className="gradient-text">Experience</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-purple mx-auto rounded-full mb-4"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-coral mx-auto rounded-full mb-4"></div>
           <p className="text-dark-400 max-w-2xl mx-auto">
             My professional journey building data infrastructure across various
             industries
@@ -98,7 +98,7 @@ const Experience = () => {
         </div>
 
         <div className="relative">
-          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-500 via-accent-purple to-accent-pink"></div>
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary-500 via-accent-coral to-accent-pink"></div>
 
           <div className="relative">
             {experience.map((exp, index) => (
@@ -114,7 +114,7 @@ const Experience = () => {
 
         <div className="mt-16 grid md:grid-cols-3 gap-6">
           <div className="p-6 rounded-2xl bg-dark-800/30 border border-dark-700/30 text-center">
-            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-purple/20 flex items-center justify-center">
+            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-orange/20 flex items-center justify-center">
               <span className="text-2xl">&#x1F680;</span>
             </div>
             <h4 className="text-dark-100 font-semibold mb-2">Career Growth</h4>
@@ -124,7 +124,7 @@ const Experience = () => {
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-dark-800/30 border border-dark-700/30 text-center">
-            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-purple/20 flex items-center justify-center">
+            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-orange/20 flex items-center justify-center">
               <span className="text-2xl">&#x1F3E2;</span>
             </div>
             <h4 className="text-dark-100 font-semibold mb-2">
@@ -136,7 +136,7 @@ const Experience = () => {
             </p>
           </div>
           <div className="p-6 rounded-2xl bg-dark-800/30 border border-dark-700/30 text-center">
-            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-purple/20 flex items-center justify-center">
+            <div className="w-14 h-14 mx-auto mb-4 rounded-xl bg-gradient-to-br from-primary-500/20 to-accent-orange/20 flex items-center justify-center">
               <span className="text-2xl">&#x1F3AF;</span>
             </div>
             <h4 className="text-dark-100 font-semibold mb-2">Impact Driven</h4>

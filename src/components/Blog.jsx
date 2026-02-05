@@ -87,14 +87,14 @@ const BlogCard = ({ post, featured = false }) => {
 const Blog = () => {
   return (
     <section id="blog" className="section-padding relative overflow-hidden">
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent-purple/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent-coral/5 rounded-full blur-3xl"></div>
 
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-dark-100 mb-4">
             Latest <span className="gradient-text">Articles</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-purple mx-auto rounded-full mb-4"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-coral mx-auto rounded-full mb-4"></div>
           <p className="text-dark-400 max-w-2xl mx-auto">
             Sharing insights and learnings from building data systems at scale
           </p>
@@ -108,13 +108,13 @@ const Blog = () => {
 
         <div className="mt-16">
           <div className="relative p-8 md:p-12 rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary-500/10 via-accent-purple/10 to-accent-pink/10"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-primary-500/10 via-accent-coral/10 to-accent-pink/10"></div>
             <div className="absolute inset-0 bg-dark-800/50 backdrop-blur-sm"></div>
             <div className="absolute inset-0 border border-dark-700/50 rounded-2xl"></div>
 
             <div className="relative flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center space-x-4">
-                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary-500 to-accent-purple flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary-500 to-accent-coral flex items-center justify-center flex-shrink-0">
                   <FiBookOpen className="text-white" size={24} />
                 </div>
                 <div>

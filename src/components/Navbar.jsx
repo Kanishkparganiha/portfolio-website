@@ -51,7 +51,7 @@ const Navbar = () => {
             onClick={(e) => handleNavClick(e, "#home")}
           >
             <div className="relative w-10 h-10 flex items-center justify-center">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-accent-purple rounded-lg transform rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary-500 to-accent-coral rounded-lg transform rotate-6 group-hover:rotate-12 transition-transform duration-300"></div>
               <span className="relative font-bold text-white text-lg">K</span>
             </div>
             <span className="font-bold text-xl text-dark-100 hidden sm:block">

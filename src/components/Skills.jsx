@@ -70,14 +70,14 @@ const Skills = () => {
       className="section-padding relative overflow-hidden bg-dark-900/50"
     >
       <div className="absolute inset-0 bg-grid opacity-30"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent-purple/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent-coral/5 rounded-full blur-3xl"></div>
 
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-dark-100 mb-4">
             Skills & <span className="gradient-text">Technologies</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-purple mx-auto rounded-full mb-4"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-coral mx-auto rounded-full mb-4"></div>
           <p className="text-dark-400 max-w-2xl mx-auto">
             My technical toolkit for building scalable data infrastructure and
             processing systems
@@ -95,7 +95,7 @@ const Skills = () => {
                     onClick={() => setActiveCategory(index)}
                     className={`flex items-center px-4 py-2 rounded-lg font-medium text-sm transition-all duration-300 ${
                       activeCategory === index
-                        ? "bg-gradient-to-r from-primary-500 to-accent-purple text-white"
+                        ? "bg-gradient-to-r from-primary-500 to-accent-orange text-dark-950 font-semibold"
                         : "bg-dark-800/50 text-dark-400 hover:text-dark-200 hover:bg-dark-800"
                     }`}
                   >
@@ -112,7 +112,7 @@ const Skills = () => {
                   const Icon =
                     iconMap[skills.categories[activeCategory].icon];
                   return (
-                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-purple/20 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-orange/20 flex items-center justify-center">
                       <Icon className="text-primary-400" size={20} />
                     </div>
                   );
@@ -159,7 +159,7 @@ const Skills = () => {
                 Typical Data Flow I Build
               </h4>
               <div className="flex flex-wrap items-center justify-center gap-2 text-sm">
-                <div className="px-3 py-2 rounded-lg bg-accent-cyan/10 border border-accent-cyan/30 text-accent-cyan">
+                <div className="px-3 py-2 rounded-lg bg-accent-sage/10 border border-accent-sage/30 text-accent-sage">
                   Sources
                 </div>
                 <span className="text-dark-500">&rarr;</span>

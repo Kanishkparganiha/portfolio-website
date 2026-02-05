@@ -78,14 +78,14 @@ const Contact = () => {
     >
       <div className="absolute inset-0 bg-grid opacity-30"></div>
       <div className="absolute top-1/4 left-0 w-96 h-96 bg-primary-500/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-accent-purple/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-accent-coral/5 rounded-full blur-3xl"></div>
 
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-dark-100 mb-4">
             Get In <span className="gradient-text">Touch</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-purple mx-auto rounded-full mb-4"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-coral mx-auto rounded-full mb-4"></div>
           <p className="text-dark-400 max-w-2xl mx-auto">
             Have a project in mind or want to discuss opportunities? I&apos;d
             love to hear from you!
@@ -100,7 +100,7 @@ const Contact = () => {
                   key={index}
                   className="group flex items-center space-x-4 p-4 rounded-xl bg-dark-800/30 border border-dark-700/30 hover:border-primary-500/30 transition-all duration-300"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-purple/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-orange/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
                     <info.icon className="text-primary-400" size={20} />
                   </div>
                   <div>
@@ -143,7 +143,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="p-5 rounded-xl bg-gradient-to-br from-primary-500/10 to-accent-purple/10 border border-primary-500/20">
+            <div className="p-5 rounded-xl bg-gradient-to-br from-primary-500/10 to-accent-orange/10 border border-primary-500/20">
               <div className="flex items-center space-x-2 mb-2">
                 <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                 <span className="text-green-400 font-medium text-sm">

@@ -53,17 +53,17 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-dark-100 mb-4">
             About <span className="gradient-text">Me</span>
           </h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-purple mx-auto rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary-500 to-accent-coral mx-auto rounded-full"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <div className="relative group">
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary-500 to-accent-purple rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary-500 to-accent-coral rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
               <div className="relative p-6 md:p-8 rounded-2xl bg-dark-800/50 border border-dark-700/50 backdrop-blur-sm">
                 <div className="flex items-start space-x-4 mb-6">
                   <div className="relative w-20 h-20 rounded-xl overflow-hidden flex-shrink-0">
-                    <div className="absolute -inset-0.5 bg-gradient-to-br from-primary-500 to-accent-purple rounded-xl"></div>
+                    <div className="absolute -inset-0.5 bg-gradient-to-br from-primary-500 to-accent-coral rounded-xl"></div>
                     <div className="relative w-full h-full rounded-xl overflow-hidden">
                       <Image
                         src="/profile.jpg"
@@ -116,7 +116,7 @@ const About = () => {
                 <div className="mt-6">
                   <a
                     href={personalInfo.resumeLink}
-                    className="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500/10 to-accent-purple/10 border border-primary-500/30 text-primary-400 font-medium hover:border-primary-400 hover:bg-primary-500/20 transition-all duration-300"
+                    className="inline-flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-primary-500/10 to-accent-orange/10 border border-primary-500/30 text-primary-400 font-medium hover:border-primary-400 hover:bg-primary-500/20 transition-all duration-300"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -186,7 +186,7 @@ const About = () => {
                   className="group p-5 rounded-xl bg-dark-800/30 border border-dark-700/30 hover:border-primary-500/30 transition-all duration-300 card-hover"
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-purple/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-primary-500/20 to-accent-orange/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
                       <service.icon className="text-primary-400" size={24} />
                     </div>
                     <div>
