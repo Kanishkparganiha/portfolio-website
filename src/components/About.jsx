@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import {
   FiCheck,
   FiDownload,
@@ -61,10 +62,16 @@ const About = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-primary-500 to-accent-purple rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-300"></div>
               <div className="relative p-6 md:p-8 rounded-2xl bg-dark-800/50 border border-dark-700/50 backdrop-blur-sm">
                 <div className="flex items-start space-x-4 mb-6">
-                  <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-primary-500 to-accent-purple flex items-center justify-center flex-shrink-0">
-                    <span className="text-3xl font-bold text-white">
-                      {personalInfo.name.charAt(0)}
-                    </span>
+                  <div className="relative w-20 h-20 rounded-xl overflow-hidden flex-shrink-0">
+                    <div className="absolute -inset-0.5 bg-gradient-to-br from-primary-500 to-accent-purple rounded-xl"></div>
+                    <div className="relative w-full h-full rounded-xl overflow-hidden">
+                      <Image
+                        src="/profile.jpg"
+                        alt="Kanishka Parganiha"
+                        fill
+                        className="object-cover object-top"
+                      />
+                    </div>
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-dark-100">

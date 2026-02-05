@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { FiArrowDown, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
 import { personalInfo, stats } from "@/data/portfolioData";
 
@@ -44,6 +45,20 @@ const Hero = () => {
             <span className="text-dark-300 text-sm">
               Available for opportunities
             </span>
+          </div>
+
+          {/* Profile Photo */}
+          <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-8">
+            <div className="absolute -inset-1 bg-gradient-to-br from-primary-500 to-accent-purple rounded-full blur-sm opacity-60"></div>
+            <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-dark-700/50">
+              <Image
+                src="/profile-2.jpg"
+                alt="Kanishka Parganiha"
+                fill
+                className="object-cover object-top"
+                priority
+              />
+            </div>
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4">
